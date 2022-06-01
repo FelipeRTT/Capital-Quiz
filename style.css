@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous:regular);
+
+* {
+    box-sizing: border-box;
+    font-family: Righteous;
+}
+
+.github {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/25/25231.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.twitter {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1384/1384033.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 50px;
+    top: 110px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+body {
+    /* background-color: #b8c6db; */
+    background-image: linear-gradient(315deg, #b8c6db 0%, #9cb128 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, .1);
+    width: 600px;
+    overflow: hidden;
+
+}
+
+.quiz-header {
+    padding: 4rem;
+
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.rem;
+    margin: 1rem 0;
+}
+
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color: #8e44ad;
+    border: none;
+    color: white;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+
+button:hover{
+    background-color: #732d91;
+}
+
+button:focus{
+    outline: none;
+    background-color: #5e3370;
+}
